@@ -13,10 +13,11 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 20px #b5acb6;
   width: 300px;
+  padding-right: -60px;
 }
 
 #display {
-  width: 100%;
+  width: 90%;
   height: 50px;
   font-size: 24px;
   text-align: right;
@@ -46,7 +47,7 @@ button {
 }
 
 button:hover {
-  background: #666;
+  background: #ddd8dc;
 }
 
 button.zero {

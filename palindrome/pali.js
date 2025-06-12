@@ -3,12 +3,12 @@ function checkPalindrome() {
     const resultElement = document.getElementById('result');
     
     if (!input.trim()) {
-        resultElement.textContent = "Please enter something!";
+        resultElement.textContent ="Type something!";
         resultElement.style.color = "red";
         return;
     }
 
-    // Remove non-alphanumeric chars and convert to lowercase
+   
     const cleaned = input.replace(/[^a-z0-9]/gi, '').toLowerCase();
     const reversed = cleaned.split('').reverse().join('');
 
