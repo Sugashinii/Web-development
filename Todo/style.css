@@ -1,9 +1,9 @@
 :root {
   --background: #f4f6fb;
   --card-bg: #ffffff;
-  --primary-color: #007bff;
+  --primary-color: #5d84ae;
   --secondary-color: #6c757d;
-  --accent-color: #5c60f5;
+  --accent-color: #8e8a68;
   --text-color: #212529;
 
   --dark-bg: #121212;
@@ -93,7 +93,7 @@ form {
 }
 
 #add-button:hover {
-  background-color: #4a47c9;
+  background-color: #70ac89;
 }
 
 .todo {
